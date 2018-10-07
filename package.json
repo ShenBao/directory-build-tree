@@ -1,15 +1,25 @@
 {
-  "name": "directory-build-tre",
+  "name": "directory-build-tree",
   "version": "1.0.0",
-  "description": "",
+  "description": "根据目录生成字符串树",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node .\\src\\index.js"
   },
-  "author": "",
+  "author": "ShenBao",
   "license": "ISC",
   "devDependencies": {
     "yargs": "^12.0.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShenBao/directory-build-tree.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ShenBao/directory-build-tree/issues"
+  },
+  "homepage": "https://github.com/ShenBao/directory-build-tree#readme"
 }

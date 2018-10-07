@@ -33,7 +33,7 @@ node .\src\index.js --exclude node_modules  # 忽略的目录
 ## 参数
 
 - directory：设置根目录路径
-- exclude: 设置忽略的文件(默认忽略`node_modules`)
+- exclude: 设置忽略的文件(默认忽略`node_modules`和`.git`)
 - extensions: 设置文件夹的后缀
 - depth: 设置遍历深度
 - dist: 目录树结构输出位置(默认的输出位置为`/build_tree/dist_tree.tree`)
